@@ -1,0 +1,14 @@
+﻿################################################################################
+# Ce fichier .gitignore a été automatiquement créé par Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/TransactionCertificatePortal/CopilotIndices/17.13.431.34963/CodeChunks.db
+/.vs/TransactionCertificatePortal/CopilotIndices/17.13.431.34963/CodeChunks.db-shm
+/.vs/TransactionCertificatePortal/CopilotIndices/17.13.431.34963/CodeChunks.db-wal
+/.vs/TransactionCertificatePortal/CopilotIndices/17.13.431.34963/SemanticSymbols.db
+/.vs/TransactionCertificatePortal/CopilotIndices/17.13.431.34963/SemanticSymbols.db-shm
+/.vs/TransactionCertificatePortal/CopilotIndices/17.13.431.34963/SemanticSymbols.db-wal
+/.vs/TransactionCertificatePortal/FileContentIndex/6ff15440-c9b1-4200-ba4b-771b95a636e6.vsidx
+/.vs/slnx.sqlite
+/.vs/TransactionCertificatePortal/FileContentIndex/1d13fee8-9c1a-4027-bcdb-ecc51a278e6a.vsidx
+/.vs/TransactionCertificatePortal/FileContentIndex/95e6a371-1561-456c-9122-1ea0a758fbec.vsidx
