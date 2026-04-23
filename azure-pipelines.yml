@@ -18,3 +18,17 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+
+
+
+- checkout: self   # This will now be your GitHub repo
+    - task: Docker@2
+      displayName: Build and Push
+      inputs:
+        containerRegistry: 'docker'
+        repository: 'mdrchemitex/TransactionCertificatePortal'
+        command: 'buildAndPush'
+        Dockerfile: 'services/Service01/Dockerfile'
+        tags: |
+          $(tag)
+          latest
