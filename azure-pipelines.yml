@@ -14,10 +14,9 @@ steps:
 - script: echo Hello, world! MDR
   displayName: 'Run a one-line script'
 
-- checkout: self
-    - task: Docker@2
-      inputs:
-        containerRegistry: 'docker'
-        repository: 'mdrchemitex/TransactionCertificatePortal'
-        command: 'buildAndPush'
-        Dockerfile: 'services/Service01/Dockerfile'
+- task: Docker@2
+  inputs:
+    containerRegistry: 'docker'
+    repository: 'mdrchemitex/TransactionCertificatePorta'
+    command: 'buildAndPush'
+    Dockerfile: 'services/Service01/Dockerfile'
