@@ -20,8 +20,7 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-
-- checkout: self   # This will now be your GitHub repo
+- checkout: self  
     - task: Docker@2
       displayName: Build and Push
       inputs:
