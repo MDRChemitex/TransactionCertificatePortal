@@ -20,4 +20,4 @@ COPY --from=build /app ./
 
 EXPOSE 80
 
-ENTRYPOINT ["dotnet", "Catalog.dll"]
+ENTRYPOINT ["dotnet", "Service01.dll"]
