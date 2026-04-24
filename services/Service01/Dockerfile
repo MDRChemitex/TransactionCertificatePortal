@@ -1,16 +1,16 @@
 # Build stage
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS build
 
 WORKDIR /src/Service01
 
 COPY src/Service01/*.csproj .
-RUN dotnet restore
+RUN dotnet restore 
 
 COPY src/Service01/. .
 RUN dotnet publish -c Release -o /app --no-restore
 
 # Runtime stage
-FROM mcr.microsoft.com/dotnet/aspnet:10.0
+FROM mcr.microsoft.com/dotnet/aspnet:9.0
 
 WORKDIR /app
 
